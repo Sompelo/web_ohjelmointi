@@ -1,0 +1,177 @@
+.App {
+    background-color:lightgray;
+}
+
+.headerOuter {
+    background-color: rgb(0, 0, 104);
+    width: 100%;
+    height: 50px;
+}
+
+.headerInner {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.logo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.menuBarLeft {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.menuBarRight {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.menuItem {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.menuHighlighted {
+    background-color: white;
+    border-radius: 20px;
+    color:black;
+    padding: 10px 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.menuValikko {
+    color:white;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: 2px white solid;
+    padding: 2px 2px 2px 2px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.valikko
+{
+    margin-right:5px;
+}
+
+.HeadlineBarsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeadlineBarArea1
+{
+    font-family:'Arial';
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    word-wrap: unset;
+    background-color: teal;
+    color: white;
+}
+
+.MainosArea1
+{
+    font-family:'Arial';
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    word-wrap: unset;
+    background-color: rgb(92, 209, 255);
+    color: white;
+}
+
+.ContentContainer {
+    display: flex;
+    align-content: left;
+    margin-top: 10px;
+    margin-left:15%;
+    margin-right:15%;
+    border: 2px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.ContentArea1
+{
+    border-top: solid 2px black;
+    font-family:'Times New Roman', Times, serif;
+    background-color: white;    
+    align-content: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 70%;
+}
+.ContentArea2
+{
+    font-family:'Times New Roman', Times, serif;
+    background-color: white;  
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-content: right;   
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+}
+
+hr {
+    width:100%;
+}
+
+ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+    padding: 15px 5px 15px 5px;
+    border-bottom: 2px solid lightgray;
+}
+
+ol li:before
+{
+    color: lightblue;
+    content: counter(list) ".";
+    left: -32px;
+    position:absolute;
+    text-align: right;
+    width: 26px;
+    font-size:xx-large;
+}
