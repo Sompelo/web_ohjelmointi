@@ -1,2 +1,1 @@
-PLS USE BRANCH test1, I CANNOT ADD FILES TO MAIN FOR WHATEVER REASON
-IF PROBLEMS PLS E-MAIL ME t0sasa03@students.oamk.fi
+I had problems with git, but it should work now. If there are some missing files pls email me at t0sasa03@students.oamk.fi
